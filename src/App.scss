@@ -1,0 +1,92 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.card {
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.card-container {
+  padding: 30px;
+}
+
+.content-header {
+  color: gray;
+}
+
+.content-header-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.temperature-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+.weather-conditions-list {
+  li {
+    list-style-type: none;
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 1.17em;
+  padding: 0;
+}
+
+.condition {
+  text-align: center;
+}
+
+.allow {
+  color: gray;
+  font-size: 23px;
+}
+
+.weather-conditions-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-container {
+  background-color: #4b515d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    align-self: flex-start;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  input {
+    background-color: transparent;
+    border: gray solid 1px;
+    width: 70%;
+  }
+}
+
+.current-city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b515d;
+  margin-top: 50px;
+}
